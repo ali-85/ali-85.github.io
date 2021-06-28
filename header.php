@@ -13,7 +13,7 @@
   <div class="container">
     <a class="navbar-brand" href="#">Ali Davit</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars fa-2x" style="color:#285772"></i>
+      <i class="fas fa-bars fa-2x hamburger"></i>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
@@ -21,19 +21,19 @@
           <a class="nav-link nav1" href="#">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav2" href="#">Edukasi</a>
+          <a class="nav-link nav2" href="#Edukasi">Edukasi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav3" href="#">Prestasi</a>
+          <a class="nav-link nav3" href="#Prestasi">Prestasi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav4" href="#">Pengalaman</a>
+          <a class="nav-link nav4" href="#Pengalaman">Pengalaman</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav5" href="#">Portofolio</a>
+          <a class="nav-link nav5" href="#Portofolio">Portofolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav6" href="#">Kontak Saya</a>
+          <a class="nav-link nav6" href="#Kontak">Kontak Saya</a>
         </li>
       </ul>
     </div>

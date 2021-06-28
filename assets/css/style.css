@@ -1,7 +1,7 @@
 body
 {
 	background: url('../svg/cobaHeader.svg') no-repeat;
-	background-size: cover;
+    background-size: 100%;
 }
 ::-webkit-scrollbar {
     width: 12px;
@@ -51,10 +51,52 @@ body
 }
 .stretched-link{
     color: #285772;
+    margin: auto;
     animation: chevron 1.5s infinite ease-in-out;
 }
 @keyframes chevron{
 	50%{
 		transform: translateY(20px);
 	}
+}
+.hamburger{
+    color:#fff;
+}
+.prestasi{
+    background-color: #285772;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+.img{
+    max-width: 420px;
+    max-height: 390px;
+}
+.img-prestasi{
+    max-width: 375px;
+    max-height: 375px;
+}
+.display-7{
+    color:#ff00f9;
+}
+@media only screen and (max-width: 425px) {
+    .img{
+        text-align: center;
+        width: 192px;
+        height: 156px;
+    }
+    .img-prestasi{
+        max-width: 192px;
+        max-height: 150px;
+    }
+}
+.kontak{
+    width: 100%;
+    color:#285772;
+    background: #eee;
+}
+.sosmed{
+    text-align: center;
+}
+footer{
+    background-color: #285772;
 }

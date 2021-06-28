@@ -1,7 +1,7 @@
 
     <footer>
-        <div class="pt-3 mt-4 text-muted border-top">
-            <p class="text-center">&copy; All Right Reserved. Ali Davit. <?= date('Y') ?></p>
+        <div class="p-2 text-muted border-top">
+            <p class="text-center text-white">&copy; All Right Reserved. Ali Davit. <?= date('Y') ?></p>
         </div>
     </footer>
     
